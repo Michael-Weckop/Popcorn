@@ -3,26 +3,26 @@ body {
 }
 
 #box {
-width: 500px;
-height: 500px;
-background-color:#F5E6E8;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color: #192A51;
-border-radius: 25px;
-border: 5px solid #192A51;
+    width: 500px;
+    height: 500px;
+    background-color:#F5E6E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #192A51;
+    border-radius: 25px;
+    border: 5px solid #192A51;
 }
 
 #cat-image {
-background-color: #F5E6E8;
-max-width: 300px;
-max-height: 300px; 
-/* background-size: cover; */
-object-fit: cover;
-border-radius: 25px;
-border: 5px solid #967AA1;
+    background-color: #F5E6E8;
+    max-width: 300px;
+    max-height: 300px; 
+    /* background-size: cover; */
+    object-fit: cover;
+    border-radius: 25px;
+    border: 5px solid #967AA1;
 }
 
 #name {
@@ -31,9 +31,9 @@ border: 5px solid #967AA1;
     font-size: 25px;
 }
 
-#popcorn {
+/* #popcorn {
 
-}
+} */
 
 #start {
     margin-bottom: 20px;
