@@ -6,16 +6,34 @@ let name = document.getElementById('name');
 //Generate random cat image when clicking the start button
 button.addEventListener('click', () => {
     let image = document.getElementById("cat-image");
+
+    image.src = '';
+    image.style.objectFit = 'cover';
+    image.style.transitionDuration = '1s';
+    image.style.rotate = '360deg';
+
     fetch('https://api.thecatapi.com/v1/images/search')
     .then(response => response.json())
     .then(json => image.src = json[0].url)
+
+    name.style.transitionDuration = '1s';
+    name.style.fontSize = '55px';
+    name.innerHTML = PTRI[randomIndex()];
+
+    playMeow();
+
     setTimeout(() => {
-        name.innerHTML = PTRI[randomIndex()];
-    },500)
+        location.reload()
+    }, 3000)
     
 })
 
 // function to create random number to target index in array of names
 function randomIndex () {
     return Math.floor(Math.random() * PTRI.length);
+}
+
+function playMeow() {
+    const audio = document.querySelector('audio');
+    audio.play()
 }
