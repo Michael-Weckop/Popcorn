@@ -1,39 +1,47 @@
+html {
+    cursor: url('./pop.png'), auto;
+}
+
 body {
     font-family: 'Permanent Marker', cursive;
+    cursor: url('./pop.png'), auto;
 }
 
 #box {
-width: 500px;
-height: 500px;
-background-color:#F5E6E8;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-color: #192A51;
-border-radius: 25px;
-border: 5px solid #192A51;
+    width: 500px;
+    height: 550px;
+    background-color: #F5E6E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #192A51;
+    border-radius: 25px;
+    border: 5px solid #192A51;
+    cursor: url('./pop.png'), auto;
 }
 
 #cat-image {
-background-color: #F5E6E8;
-max-width: 300px;
-max-height: 300px; 
-/* background-size: cover; */
-object-fit: cover;
-border-radius: 25px;
-border: 5px solid #967AA1;
+    background-color: #F5E6E8;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 300px;
+    min-height: 300px;
+    /* background-size: cover; */
+    object-fit: contain;
+    border-radius: 25px;
+    border: 5px solid #967AA1;
+    cursor: url('./pop.png'), auto;
 }
 
 #name {
     padding: 20px;
     color: #192A51;
     font-size: 25px;
+    cursor: url('./pop.png'), auto;
 }
 
-#popcorn {
-
-}
+#popcorn {}
 
 #start {
     margin-bottom: 20px;
@@ -42,4 +50,13 @@ border: 5px solid #967AA1;
     font-size: 20px;
     color: #192A51;
     border-radius: 25px;
+    cursor: url('./pop.png'), auto;
+}
+
+#start:hover {
+    /* background-color: #AAA1C8; */
+    filter: drop-shadow(0 0 0.3rem crimson);
+    /* cursor: url(pop.png); */
+    /* cursor: pointer; */
+    cursor: url('./pop.png'), auto;
 }
