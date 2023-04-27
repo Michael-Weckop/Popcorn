@@ -1,11 +1,20 @@
+html {
+    cursor: url('./pop.png'), auto;
+}
+
 body {
     font-family: 'Permanent Marker', cursive;
+    cursor: url('./pop.png'), auto;
 }
 
 #box {
     width: 500px;
     height: 550px;
+<<<<<<< HEAD
     background-color:#F5E6E8;
+=======
+    background-color: #F5E6E8;
+>>>>>>> master
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,29 +22,46 @@ body {
     color: #192A51;
     border-radius: 25px;
     border: 5px solid #192A51;
+<<<<<<< HEAD
+=======
+    cursor: url('./pop.png'), auto;
+>>>>>>> master
 }
 
 #cat-image {
     background-color: #F5E6E8;
     max-width: 300px;
+<<<<<<< HEAD
     max-height: 300px; 
+=======
+    max-height: 300px;
+>>>>>>> master
     min-width: 300px;
     min-height: 300px;
     /* background-size: cover; */
     object-fit: contain;
     border-radius: 25px;
     border: 5px solid #967AA1;
+<<<<<<< HEAD
+=======
+    cursor: url('./pop.png'), auto;
+>>>>>>> master
 }
 
 #name {
     padding: 20px;
     color: #192A51;
     font-size: 25px;
+    cursor: url('./pop.png'), auto;
 }
 
+<<<<<<< HEAD
 /* #popcorn {
 
 } */
+=======
+#popcorn {}
+>>>>>>> master
 
 #start {
     margin-bottom: 20px;
@@ -44,7 +70,11 @@ body {
     font-size: 20px;
     color: #192A51;
     border-radius: 25px;
+<<<<<<< HEAD
     /* cursor: url(pop.png); */
+=======
+    cursor: url('./pop.png'), auto;
+>>>>>>> master
 }
 
 #start:hover {
@@ -52,5 +82,10 @@ body {
     filter: drop-shadow(0 0 0.3rem crimson);
     /* cursor: url(pop.png); */
     /* cursor: pointer; */
+<<<<<<< HEAD
 }
 
+=======
+    cursor: url('./pop.png'), auto;
+}
+>>>>>>> master
